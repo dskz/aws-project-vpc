@@ -3,7 +3,6 @@ resource "aws_subnet" "private1" {
   cidr_block              = "10.0.1.0/24"
   map_public_ip_on_launch = true
   availability_zone       = "us-east-1a"
-  tags = locals.common_tags
   tags = {
     Name = "private1"
   }
@@ -14,7 +13,6 @@ resource "aws_subnet" "private2" {
   cidr_block              = "10.0.2.0/24"
   map_public_ip_on_launch = true
   availability_zone       = "us-east-1b"
-  tags = locals.common_tags
   tags = {
     Name = "private2"
   }
@@ -25,7 +23,6 @@ resource "aws_subnet" "private3" {
   cidr_block              = "10.0.3.0/24"
   map_public_ip_on_launch = true
   availability_zone       = "us-east-1c"
-  tags = locals.common_tags
   tags = {
     Name = "private3"
   }
