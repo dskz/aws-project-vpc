@@ -1,10 +1,7 @@
 locals {
-  {
-    common_tags = {
-        Name = "project1"
-        Team = "ProTeam"
-        Env = "Dev"
-    }
+  common_tags = {
+    Name = "project1"
+    Team = "ProTeam"
+    Env  = "Dev"
+  }
 }
-}
- 
