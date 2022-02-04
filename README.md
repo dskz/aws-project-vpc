@@ -2,7 +2,7 @@
 
 ```
 module "project1_vpc" {
-    source = "../"
+    source = "dskz/project1_vpc/aws"
     region = "us-east-1"
 }
 
